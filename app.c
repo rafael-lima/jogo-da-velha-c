@@ -35,8 +35,8 @@ int main(void) {
         printf("\nSelecione o jogador que iniciará a partida (X/O): ");
         scanf("%s", marcador);
 
-        marcador_valido = strcmp(marcador, "X") && strcmp(marcador, "O")
-          || strcmp(marcador, "x") && strcmp(marcador, "o");
+        marcador_valido = !strcmp(marcador, "X") || !strcmp(marcador, "O")
+        || !strcmp(marcador, "x") || !strcmp(marcador, "o");
 
         if (!marcador_valido) {
           printf("\n*Por favor, selecione um marcador válido.\n");
