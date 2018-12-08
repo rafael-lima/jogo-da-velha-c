@@ -1,2 +1,2 @@
-# jogo-da-velha-c
-Aplicação do Jogo da Velha em C, para disciplina de FUP.
+# Jogo da Velha em C
+Aplicação do Jogo da Velha em C, para cadeira de Fundamentos de Programação do curso de Engenharia de Software (UFC).
